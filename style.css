@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(47, 9, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.options-container {
+    margin-bottom: 10px;
+}
+
+.conversion-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    background-color: rgb(47, 9, 136);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result-container {
+    margin-top: 20px;
+}
